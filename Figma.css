@@ -3,36 +3,57 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: sans-serif;
+}
 
 header{
     width: 100%;
     height: 100%;
+    background-color: rgb(22, 22, 51);
 }
 .heading{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    padding: 40px 30px;
+    align-items: center;
 }
-.heading a img{
+/* .heading a img{
     background-color: black;
+    padding: 10px;
+    border-radius: 100px;
+} */
+.heading .logo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.heading .logo p{
+    color: white;
+    font-size: 15px;
+    padding-left: 8px;
+    font-weight: bold;
 }
 .heading nav ul{
     display: flex;
-    
+    /* padding-left: 10px; */
 }
-.heading nav li{
+.heading nav ul li{
     justify-content: space-between;
     margin: 0px 50px;
     list-style: none;
     text-decoration: none;
 }
-.heading nav li a{
+.heading nav ul li a{
     text-decoration: none;
+    color: white;
 }
 .login{
     display: flex;
     /* margin: 30px; */
+    align-items: center;
 
 }
 .login ul li{
@@ -42,19 +63,328 @@ header{
 }
 .login ul li a{
     text-decoration: none;
+    color: white;
 }
 .login button{
     margin: 0px 20px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     text-decoration: none;
+    border-radius: 30px;
+    background-color: #3671E9;
+    border: none;
+    
 }
 .login button a{
     text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 /* main section */
 main{
-    display: flex;
-    width: 80%;
-    align-items: center;
+    width: 100%;
+    
 }
+.first-section{
+    display: flex;
+    padding: 30px 80px 30px;
+    background-color: rgb(22, 22, 51);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .first-section .left{
+    padding-left: 40px;
+} */
+.first-section .left .first{
+    display: flex;
+    align-items: center;
+    background-color: rgb(79, 61, 61);
+    width: 18rem;
+    padding: 2px 2px 2px 2px;
+    border-radius: 20px;
+}
+.first-section .left .first :first-child{
+    background-color: white;
+    color: black;
+    padding: 3px 5px 3px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.first-section .left .first :last-child{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.first-section .left h2{
+    font-size: 50px;
+    margin: 10px 0px 10px;
+}
+.first-section .left .paragraphy{
+    margin: 17px 0px 30px;
+    font-size: 14px;
+    padding-right: 10rem;
+    line-height: 20px;
+    font-weight: 400 ;
+}
+.first-section .left a{
+    background-color: #3671E9;
+    color: white;
+    padding: 10px 15px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+.first-section .right img{
+    width: 40rem;
+    height: 40rem;
+}
+
+/* second section */
+/* color background: #3671E9;*/
+ 
+ .second-section{
+    display: flex;
+    background-color: rgb(22, 22, 51);
+    justify-content: space-between;
+    padding: 30px 80px 30px;
+    line-height: 30px;
+ }
+ .second-section .icon{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between
+    ; */
+    color: #3671E9;
+ }
+ .second-section .fa-stack-exchange{
+    background-color: rgba(128, 128, 128, 0.281);
+    padding: 15px;
+    border-radius: 35px;
+    margin-right: 10px;
+    font-size: 25px;
+ }
+ .second-section .fa-user{
+    background-color: rgba(128, 128, 128, 0.281);
+    padding: 15px;
+    border-radius: 35px;
+    margin-right: 10px;
+    font-size: 25px;
+ }
+ .second-section .fa-earth-americas{
+    background-color: rgba(128, 128, 128, 0.281);
+    padding: 15px;
+    border-radius: 35px;
+    margin-right: 10px;
+    font-size: 25px;
+ }
+ .second-section h1{
+    color: white;
+    font-weight: bold;
+ }
+ .second-section p{
+    color: white;
+    font-size: 11px;
+ }
+
+
+ /* Third Section */
+ .third-section{
+    display: flex;
+    background-color: rgb(22, 22, 51);
+    justify-content: space-between;
+    padding: 0px 80px 30px;
+    align-items: center;
+ }
+ .third-section .paragraphy{
+    padding: 90px;
+ }
+ .third-section .paragraphy h2{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+ }
+.third-section .paragraphy p{
+    color: white;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+.third-section .paragraphy a{
+    /* margin: 80px 0px; */
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #3671E9;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* fouth-section */
+
+
+.fouth-section{
+    padding: 80px 20px;
+    background-color: whitesmoke;
+}
+.fouth-section .first{
+    width: 100%;
+    text-align: center;
+    /* align-items: center; */
+    
+}
+.fouth-section .first p{
+    padding: 0px 23rem 0px;
+    color: rgba(128, 128, 128, 0.241);
+}
+.fouth-section .second{
+    text-align: center;
+    /* align-items: center; */
+    /* align-content: center; */
+    padding: 30px 0px 30px;
+    background-color: white;
+    /* width: 60%; */
+    margin: 30px 20rem 0px;
+    line-height: 30px;
+    
+}
+.fouth-section .second h5{
+    color: #3671E9;
+    /* padding-top: 20px; */
+}
+.fouth-section .second h2{
+    color: black;
+    font-size: 30px;
+}
+.fouth-section .second h2 .ETH{
+    color: #3671E9;
+}
+.fouth-section .second p{
+    color: rgba(0, 0, 0, 0.441);
+}
+
+
+/* Fifth Section */
+
+.fifth-section{
+    background-color: whitesmoke;
+}
+.fifth-section h1{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 0px 25rem 30px;
+}
+.fifth-section .second{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.fifth-section .second .bitcoin{
+    background-color: #2B076E;
+    padding: 60px 30px;
+    border-radius: 20px;
+}
+
+.fifth-section .second .bitcoin .fa-bitcoin-sign{
+    font-size: 30px;
+    color: white;
+    background-color: #F89D2F;
+    padding: 10px 15px;
+    border-radius: 50px;
+} 
+.fifth-section .second .bitcoin h3{
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.fifth-section .second .bitcoin p{
+    color: white;
+}
+.fifth-section .second .bitcoin button{
+    padding: 10px 10px;
+    margin: 30px;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    background-color: #3671E9;
+    color: white;
+}
+
+.fifth-section .second .bitcoin button i{
+    padding: 5px 8px;
+    background-color: white;
+    border-radius: 20px;
+    color: #3671E9;
+}
+        /* etheruem */
+.fifth-section .second .ethereum{
+    padding: 30px 30px;
+}
+
+.fifth-section .second .ethereum .fa-ethereum{
+    font-size: 30px;
+    color: white;
+    background-color: #1181E8;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+} 
+.fifth-section .second .ethereum h3{
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+.fifth-section .second .ethereum p{
+    color: black;
+}
+.fifth-section .second .ethereum i{
+    color: #3671E9;
+    padding: 8px 12px;
+    border: gray solid 2px;
+    /* background-color: transparent; */
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+            /* litecoin */
+.fifth-section .second .litecoin{
+    padding: 30px 30px;
+}
+
+.fifth-section .second .litecoin .fa-litecoin-sign{
+    font-size: 30px;
+    color: white;
+    background-color: #59C19C;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none
+    ;
+} 
+.fifth-section .second .litecoin h3{
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+.fifth-section .second .litecoin p{
+    color: black;
+}
+.fifth-section .second .litecoin i{
+    color: #3671E9;
+    padding: 8px 12px;
+    border: gray solid 2px;
+    /* background-color: transparent; */
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+
