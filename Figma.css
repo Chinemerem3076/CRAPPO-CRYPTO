@@ -319,7 +319,6 @@ main{
     background-color: #3671E9;
     color: white;
 }
-
 .fifth-section .second .bitcoin button i{
     padding: 5px 8px;
     background-color: white;
@@ -387,4 +386,21 @@ main{
     border-radius: 30px;
 }
 
-
+/* sixth section */
+.sixth-section{
+    background-color: #1181E8;
+    padding: 50px;
+    width: 100%;
+}
+.sixth-section h2{
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 30px;
+    align-items: center;
+}
+.sixth-section .first{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
