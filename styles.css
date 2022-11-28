@@ -136,11 +136,11 @@ main{
 .first-section .left a{
     background-color: #3671E9;
     color: white;
-    padding: 10px 15px 10px;
-    border-radius: 15px;
+    padding: 12px 18px;
+    border-radius: 12px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
 
 }
 .first-section .right img{
@@ -167,24 +167,24 @@ main{
  }
  .second-section .fa-stack-exchange{
     background-color: rgba(128, 128, 128, 0.281);
-    padding: 15px;
+    padding: 13px;
     border-radius: 35px;
     margin-right: 10px;
-    font-size: 25px;
+    font-size: 23px;
  }
  .second-section .fa-user{
     background-color: rgba(128, 128, 128, 0.281);
-    padding: 15px;
+    padding: 13px;
     border-radius: 35px;
     margin-right: 10px;
-    font-size: 25px;
+    font-size: 23px;
  }
  .second-section .fa-earth-americas{
     background-color: rgba(128, 128, 128, 0.281);
-    padding: 15px;
+    padding: 13px;
     border-radius: 35px;
     margin-right: 10px;
-    font-size: 25px;
+    font-size: 23px;
  }
  .second-section h1{
     color: white;
@@ -219,9 +219,9 @@ main{
 }
 .third-section .paragraphy a{
     /* margin: 80px 0px; */
-    padding: 10px 15px;
+    padding: 13px 18px;
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 20px;
     background-color: #3671E9;
     border: none;
     color: white;
@@ -695,43 +695,149 @@ background-color: #3671E9;
 
 /* FOOTER SECTION */
 footer{
-    background-color: white;
+    background-color: rgb(22, 22, 51);
     width: 100%;
 }
 
 .footer{
-    background-color: brown;
-    width: 90%;
+    /* background-color: brown; */
+    width: 80%;
     margin: auto;
+    padding: 30px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-footer .footer .first-link{
+.first-list{
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
 }
 
-footer .footer .first-link a{
+.first-list a{
     text-decoration: none;
+    margin: 10px auto;
+    color: white;
+    font-size: 15px;
 }
 
-footer .footer .second-link{
+.second-list{
+    /* background-color: pink; */
     display: flex;
     flex-direction: column;
 }
 
-footer .footer .second-link a{
+.second-list a{
     text-decoration: none;
+    margin: 10px auto;
+    color: white;
+    font-size: 15px;
 }
 
-footer .footer .logo{
+.third-list{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 20%;
+    /* margin-left: 10px; */
+    gap: 20px;
 }
 
-/* footer .footer .logo i{
-    height: 20px;
-    width: 20px;
-} */
+
+
+
+.fa-cc-visa{
+    padding: 10px 12px;
+    background-color: rgba(42, 42, 86, 0.912);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.fa-credit-card{
+    padding: 10px 12px;
+    background-color: rgba(42, 42, 86, 0.912);
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.fa-bitcoin{
+    padding: 10px 12px;
+    background-color: rgba(42, 42, 86, 0.912);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.copyrigth{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    align-items: center;
+    width: 95%;
+    margin: 20px auto;
+    padding: 30px 0px;
+}
+
+.copyright-content{
+    /* background-color: blue; */
+    width: 50%;
+}
+
+.copyright-content p{
+    color: white;
+    font-size: 12px;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 20%;
+    /* margin-left: 10px; */
+    gap: 10px;
+    /* margin: auto; */
+}
+
+.fa-facebook-f{
+    /* padding: 10px 15px;
+    background-color: rgba(42, 42, 86, 0.912);
+    border-radius: 10px; */
+    color: white;
+    font-size: 15px;
+}
+
+.fa-instagram{
+    /* padding: 10px 15px;
+    background-color: rgba(42, 42, 86, 0.912);
+    border-radius: 10px; */
+    color: white;
+    font-size: 15px;
+}
+
+.fa-youtube{
+    /* padding: 10px 15px;
+    background-color: rgba(42, 42, 86, 0.912);
+    border-radius: 10px; */
+    color: white;
+    font-size: 15px;
+}
+
+.fa-twitter{
+    /* padding: 10px 15px;
+    background-color: rgba(42, 42, 86, 0.912);
+    border-radius: 10px; */
+    color: white;
+    font-size: 15px;
+}
+
+
+.fa-linkedin-in{
+    /* padding: 10px 15px; */
+    /* background-color: rgba(42, 42, 86, 0.912); */
+    /* border-radius: 10px; */
+    color: white;
+    font-size: 15px;
+}
