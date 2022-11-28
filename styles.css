@@ -27,10 +27,10 @@ header{
     padding-left: 40px;
 }
 
-/* .heading .logo img{
-    width: 30px;
-    height: 30px;
-} */
+.heading .logo .fa-ethereum{
+    color: white;
+    font-size: 13px;
+}
 
 .heading .logo p{
     color: white;
@@ -78,7 +78,6 @@ header{
     border-radius: 30px;
     background-color: #3671E9;
     border: none;
-    
 }
 .login button a{
     text-decoration: none;
@@ -86,7 +85,7 @@ header{
     font-weight: bold;
 }
 
-             /* main section */
+    /* main section */
 main{
     width: 100%;
     
@@ -108,6 +107,7 @@ main{
     padding: 2px 2px 2px 2px;
     border-radius: 20px;
 }
+
 .first-section .left .first :first-child{
     background-color: white;
     color: black;
@@ -116,16 +116,19 @@ main{
     font-size: 12px;
     font-weight: bold;
 }
+
 .first-section .left .first :last-child{
     color: white;
     font-size: 12px;
     font-weight: bold;
     padding-left: 10px;
 }
+
 .first-section .left h2{
     font-size: 50px;
     margin: 10px 0px 10px;
 }
+
 .first-section .left .paragraphy{
     margin: 17px 0px 30px;
     font-size: 14px;
@@ -133,6 +136,7 @@ main{
     line-height: 20px;
     font-weight: 400 ;
 }
+
 .first-section .left a{
     background-color: #3671E9;
     color: white;
@@ -143,13 +147,13 @@ main{
     font-size: 15px;
 
 }
+
 .first-section .right img{
     width: 40rem;
     height: 40rem;
 }
 
 /* second section */
-/* color background: #3671E9;*/
  
  .second-section{
     display: flex;
@@ -158,6 +162,7 @@ main{
     padding: 30px 80px 30px;
     line-height: 30px;
  }
+
  .second-section .icon{
     display: flex;
     align-items: center;
@@ -165,6 +170,7 @@ main{
     ; */
     color: #3671E9;
  }
+
  .second-section .fa-stack-exchange{
     background-color: rgba(128, 128, 128, 0.281);
     padding: 13px;
@@ -172,6 +178,7 @@ main{
     margin-right: 10px;
     font-size: 23px;
  }
+
  .second-section .fa-user{
     background-color: rgba(128, 128, 128, 0.281);
     padding: 13px;
@@ -179,6 +186,7 @@ main{
     margin-right: 10px;
     font-size: 23px;
  }
+
  .second-section .fa-earth-americas{
     background-color: rgba(128, 128, 128, 0.281);
     padding: 13px;
@@ -186,10 +194,12 @@ main{
     margin-right: 10px;
     font-size: 23px;
  }
+
  .second-section h1{
     color: white;
     font-weight: bold;
  }
+
  .second-section p{
     color: white;
     font-size: 11px;
@@ -204,19 +214,23 @@ main{
     padding: 0px 80px 30px;
     align-items: center;
  }
+
  .third-section .paragraphy{
     padding: 90px;
  }
+
  .third-section .paragraphy h2{
     color: white;
     font-size: 30px;
     line-height: 50px;
  }
+
 .third-section .paragraphy p{
     color: white;
     line-height: 25px;
     padding-bottom: 30px;
 }
+
 .third-section .paragraphy a{
     /* margin: 80px 0px; */
     padding: 13px 18px;
@@ -236,16 +250,19 @@ main{
     padding: 80px 20px;
     background-color: whitesmoke;
 }
+
 .fouth-section .first{
     width: 100%;
     text-align: center;
     /* align-items: center; */
     
 }
+
 .fouth-section .first p{
     padding: 0px 23rem 0px;
     color: rgba(128, 128, 128, 0.241);
 }
+
 .fouth-section .second{
     text-align: center;
     /* align-items: center; */
@@ -257,17 +274,21 @@ main{
     line-height: 30px;
     
 }
+
 .fouth-section .second h5{
     color: #3671E9;
     /* padding-top: 20px; */
 }
+
 .fouth-section .second h2{
     color: black;
     font-size: 30px;
 }
+
 .fouth-section .second h2 .ETH{
     color: #3671E9;
 }
+
 .fouth-section .second p{
     color: rgba(0, 0, 0, 0.441);
 }
@@ -278,12 +299,14 @@ main{
 .fifth-section{
     background-color: whitesmoke;
 }
+
 .fifth-section h1{
     width: 100%;
     align-items: center;
     text-align: center;
     padding: 0px 25rem 30px;
 }
+
 .fifth-section .second{
     display: flex;
     justify-content: space-between;
@@ -314,7 +337,7 @@ main{
     color: white;
 }
 .fifth-section .second .bitcoin button{
-    padding: 10px 10px;
+    padding: 12px 20px;
     margin: 30px;
     border-radius: 20px;
     border: none;
@@ -324,10 +347,11 @@ main{
     color: white;
 }
 .fifth-section .second .bitcoin button i{
-    padding: 5px 8px;
+    padding: 8px 12px;
     background-color: white;
     border-radius: 20px;
     color: #3671E9;
+    font-size: 15px;
 }
         /* etheruem */
 .fifth-section .second .ethereum{
@@ -352,6 +376,8 @@ main{
 }
 .fifth-section .second .ethereum i{
     color: #3671E9;
+    font-weight: bold;
+    font-size: 20px;
     padding: 8px 12px;
     border: gray solid 2px;
     /* background-color: transparent; */
@@ -383,6 +409,8 @@ main{
 }
 .fifth-section .second .litecoin i{
     color: #3671E9;
+    font-weight: bold;
+    font-size: 20px;
     padding: 8px 12px;
     border: gray solid 2px;
     /* background-color: transparent; */
